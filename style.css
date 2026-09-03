@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #97d6c3;
+    padding: 20px 80px 20px 80px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+ main, footer{
+    width: 100%;
+    background-color: rgb(104, 71, 44);
+    padding: 20px ;
+    border-radius: 30px;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 8px;
+}
+main>p{
+    min-width: 100%;
+    color: rgb(130, 185, 187);
+}
+aside, article{
+    width: 30%;
+    background-color: #97b8d6;
+    padding: 20px;
+    border-radius: 30px;
+}
+aside{
+     width: 30%;
+}
+article{
+    width: 60%;
+}
+section{
+    background-color: rgb(130, 161, 187);
+    width: 100%;
+    padding: 20px;
+    border-radius: 30px ;
+}
+address{
+    background-color: rgb(130, 161, 187) ;
+    padding: 20px;
+    border-radius: 30px ;
+}
+
+figcaption {
+  background-color: #75d1ab;
+  color: #fff;
+  font: italic medium sans-serif;
+  padding: 5px;
+  text-align: center;
+  font-size: 20px;
+}
+
+figure {
+  display: flex;
+  flex-flow: column;
+  padding: 5px;
+  max-width: 700px;
+  margin: auto;
+}
+
+time {
+  font-weight: bold;
+}
+
+header{
+    width: 100%;
+    background-color: rgb(104, 71, 44);
+    padding: 20px ;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px;
+}
+
+.logo{
+    width: 100px;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+ul li{
+    list-style: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(130, 185, 187);
+}
