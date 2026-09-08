@@ -1,107 +1,265 @@
-*{
+* {
     margin: 0;
     box-sizing: border-box;
+    font-family: "Averia Serif Libre", serif;
+    font-weight: 300;
+    font-style: normal;
 }
-body{
+
+body {
     width: 100%;
-    height: 100vh;
-    background-color: #97d6c3;
+    height: 100%;
     padding: 20px 80px 20px 80px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
+    background-image: radial-gradient(#b0ebd3 10px, transparent 10px), radial-gradient(#b0ebd3 10px, transparent 10px);
+    background-size: 22px 22px;
+    background-position: 0 0, 11px 11px;
+    background-color: #846042;
 }
- main, footer{
+
+main,
+footer {
     width: 100%;
     background-color: rgb(104, 71, 44);
-    padding: 20px ;
+    padding: 20px;
     border-radius: 30px;
 }
 
-main{
+footer {
+    padding-bottom: 18px;
+    margin: 20px;
+    color: #85e2bb;
+    text-align: center;
+    font-size: 22px;
+}
+
+main {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-evenly;
     gap: 8px;
 }
-main>p{
-    min-width: 100%;
-    color: rgb(130, 185, 187);
-}
-aside, article{
-    width: 30%;
-    background-color: #97b8d6;
+
+aside,
+article {
+    background-color: #75d1ab;
     padding: 20px;
     border-radius: 30px;
+    margin: 20px 0 20px 0;
 }
-aside{
-     width: 30%;
+
+aside p {
+    color: rgb(104, 71, 44);
+    margin: 14px 5px 50px 5px;
+    font-size: 24px;
 }
-article{
+
+.deco {
+    text-align: center;
+    color: rgb(155, 111, 75);
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+aside {
+    width: 30%;
+}
+
+article {
     width: 60%;
 }
-section{
-    background-color: rgb(130, 161, 187);
+
+.chocomentatexto {
+    background-color: rgb(104, 71, 44);
     width: 100%;
     padding: 20px;
-    border-radius: 30px ;
+    border-radius: 30px;
+    color: #75d1ab;
+    margin: 13px 0 22px 0;
+    font-size: 24px;
 }
-address{
-    background-color: rgb(130, 161, 187) ;
-    padding: 20px;
-    border-radius: 30px ;
+
+address {
+    background-color: #75d1ab;
+    padding: 10px;
+    border-radius: 30px;
+    margin-top: 10px;
+    color: rgb(104, 71, 44);
 }
 
 figcaption {
-  background-color: #75d1ab;
-  color: #fff;
-  font: italic medium sans-serif;
-  padding: 5px;
-  text-align: center;
-  font-size: 20px;
+    background-color: rgb(104, 71, 44);
+    color: #75d1ab;
+    font: italic medium sans-serif;
+    padding: 5px;
+    text-align: center;
+    font-size: 22px;
 }
 
 figure {
-  display: flex;
-  flex-flow: column;
-  padding: 5px;
-  max-width: 700px;
-  margin: auto;
+    display: flex;
+    flex-flow: column;
+    padding: 6px;
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 10px;
+    border: rgb(104, 71, 44) dotted 3px;
+    border-radius: 4px;
 }
 
 time {
-  font-weight: bold;
+    font-weight: bold;
 }
 
-header{
+header {
     width: 100%;
     background-color: rgb(104, 71, 44);
-    padding: 20px ;
+    padding: 20px;
     border-radius: 30px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    flex-wrap: wrap;
     margin: 20px;
+    max-width: 100%;
 }
 
-.logo{
-    width: 100px;
+.circulo {
+    width: 110px;
+    height: 110px;
+    border: #85e2bb outset 2px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-ul{
+.logo {
+    margin-top: 3px;
+    width: 110px;
+    height: auto;
+}
+
+.ulnav {
     display: flex;
     align-items: center;
     gap: 20px;
+    flex-wrap: wrap;
 }
 
-ul li{
+.ulnav li {
+    font-size: 30px;
+}
+
+ul li {
     list-style: none;
     font-weight: bold;
-    font-size: 20px;
 }
 
-a{
+aside ul {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    margin-top: 20px;
+    padding-left: 2px;
+    font-size: 28px;
+}
+
+.sorvetes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 60px;
+}
+
+a {
     text-decoration: none;
-    color: rgb(130, 185, 187);
+    color: #75d1ab;
+    font-weight: bold;
+}
+
+a:hover {
+    color: rgb(189, 143, 106);
+    cursor: pointer;
+}
+
+.leite,
+.laranja,
+.goiaba,
+.acai {
+    color: rgb(104, 71, 44);
+}
+
+.leite:hover {
+    color: rgb(177, 126, 85);
+    cursor: pointer;
+}
+
+.acai:hover {
+    color: rgb(147, 82, 160);
+    cursor: pointer;
+}
+
+.laranja:hover {
+    color: rgb(255, 222, 113);
+    cursor: pointer;
+}
+
+.goiaba:hover {
+    color: rgb(231, 107, 124);
+    cursor: pointer;
+}
+
+h1,
+h3 {
+    color: #75d1ab;
+    font-family: "Ultra", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2,
+h4 {
+    color: rgb(104, 71, 44);
+    font-family: "Ultra", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 22px;
+    margin-bottom: 12px;
+    letter-spacing: 1.5px;
+}
+
+h4 {
+    font-size: 26px;
+    margin-left: 5px;
+}
+
+mark {
+    background-color: rgb(155, 111, 75);
+    color: #85e2bb;
+}
+
+ul img {
+    width: 185px;
+    height: auto;
+    border-radius: 12px;
+    border: rgb(155, 111, 75) dotted 3px;
+    margin: 4px;
+    padding: 5px;
+    max-width: 100%;
 }

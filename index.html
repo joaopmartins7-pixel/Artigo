@@ -6,14 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Artigo Chocomenta</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ultra&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <header id="Inicio">
         <h1>Chocomentados</h1>
-        <img class="logo" src="img/chocomentados.png" alt="Logo Chocomentados">
+        <div class="circulo">
+            <img class="logo" src="img/chocomentados.png" alt="Logo Chocomentados">
+        </div>
         <nav>
-            <ul>
+            <ul class="ulnav">
                 <li><a href="#Inicio">Início</a></li>
                 <li><a href="#Chocomenta">Chocomenta</a></li>
                 <li><a href="#Contato">Contato</a></li>
@@ -22,10 +32,10 @@
     </header>
 
     <main id="Chocomenta">
-        <h2>Porque Chocomenta?</h2>
         <article>
-            <h3>Origem, sabor e constraste</h3>
-            <section>
+            <h2>Porque Chocomenta?</h2>
+            <section class="chocomentatexto">
+                <h3>Origem, sabor e constraste</h3>
                 <p><mark>Chocomenta</mark> é uma combinação que une o sabor intenso e doce do <mark>chocolate com o
                         frescor da menta</mark>. Esse contraste torna o sabor marcante e faz com que ele divida opiniões
                     entre as pessoas. A combinação está presente em sorvetes, chocolates, milkshakes e diversas
@@ -45,24 +55,48 @@
             <h4>Quer conhecer outros sabores?</h4>
             <p>
                 Continue explorando nosso blog e descubra curiosidades, histórias e características de outros sabores de
-                sorvete. Quem sabe você encontra um novo favorito?
+                sorvete. Cada sabor tem sua própria combinação de ingredientes, origem e personalidade, tornando a
+                experiência de conhecer novos sabores ainda mais interessante. <b>Quem sabe, entre tantas opções, você
+                    não encontra um novo favorito para experimentar?</b>
             </p>
             <ul>
-                <li><a href="">Ovomaltine</a></li>
-                <li><a href="">Açaí</a></li>
-                <li><a href="">Laranja</a></li>
-                <li><a href="">Goiaba</a></li>
+                <section class="sorvetes">
+                    <div>
+                        <li><a href="https://www.receitasnestle.com.br/receitas/sorvete-de-doce-de-leite"
+                                class="leite">Doce de Leite</a></li>
+                        <img src="img/sorvete-doce-de-leite.jpg" alt="Imagem de sorvete de doce de leite">
+                    </div>
+                    <div>
+                        <li><a href="https://www.tudoreceitas.com/receita-de-sorvete-de-acai-caseiro-8526.html"
+                                class="acai">Açaí</a></li>
+                        <img src="img/sorvete-acai.jpg" alt="Imagem de sorvete de açaí">
+                    </div>
+                </section>
+
+                <section class="sorvetes">
+                    <div>
+                        <li><a href="https://tanamesa.com/escola/?url=receita-simples&post_name=sorvete-de-laranja-paula-rizkallah"
+                                class="laranja">Laranja</a></li>
+                        <img src="img/sorvete-laranja.jpg" alt="Imagem de sorvete de laranja">
+                    </div>
+                    <div>
+                        <li><a href="https://www.tudoreceitas.com/receita-de-sorvete-de-goiaba-com-emulsificante-7952.html"
+                                class="goiaba">Goiaba</a></li>
+                        <img src="img/sorvete-goiaba.jpg" alt="Imagem de sorvete de goiaba">
+                    </div>
+                </section>
             </ul>
+            <p class="deco">꒷꒦︶꒷꒦ ๋࣭⭑꒷꒦꒷꒦︶꒷꒦ ๋ ࣭꒷꒦꒷꒦︶꒷꒦︶ ๋ ࣭ ⭑</p>
         </aside>
     </main>
 
     <footer id="Contato">
-        <p>Este artigo foi escrito por João Pedro Martins da Equipe Chocomentados no dia<time datetime="2026-09-03"> 3
-                de setembro de 2026</time>.</p>
+        <p>Este artigo foi escrito por João Pedro Martins da Equipe Chocomentados no dia<time datetime="2026-09-08"> 8
+                de setembro de 2026.</time></p>
         <address>
-            <p>Entre em contato conosco:</p>
-            <p>Telefone: (11) 1234-5678</p>
-            <p>Email: oschocomentados@sorvetudos.com</p>
+            <p>𑣲⋆ Entre em contato conosco:</p>
+            <p>Telefone: (14) 99123-4567</p>
+            <p>Email: oschocomentados@chocomentados.com</p>
         </address>
     </footer>
 </body>
