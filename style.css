@@ -96,16 +96,27 @@ figcaption {
     padding: 5px;
     text-align: center;
     font-size: 22px;
+    border-radius: 0 0 8px 8px;
 }
 
 figure {
     display: flex;
     flex-flow: column;
-    padding: 6px;
-    max-width: 800px;
+    padding: 5px;
+    max-width: 900px;
     margin: auto;
     border: rgb(104, 71, 44) dotted 3px;
-    border-radius: 4px;
+    border-radius: 8px;
+}
+picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+picture img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
 }
 
 time {
@@ -180,8 +191,19 @@ a {
     font-weight: bold;
 }
 
-a:hover {
+.ulnav a:hover {
     color: rgb(189, 143, 106);
+    cursor: pointer;
+}
+
+address a {
+    display: flex;
+    justify-content: center;
+    color: rgb(104, 71, 44);
+    font-weight: normal;
+}
+address a:hover {
+    color: rgb(165, 126, 94);
     cursor: pointer;
 }
 

@@ -19,9 +19,9 @@
 <body>
     <header id="Inicio">
         <h1>Chocomentados</h1>
-        <div class="circulo">
+        <section class="circulo">
             <img class="logo" src="img/chocomentados.png" alt="Logo Chocomentados">
-        </div>
+        </section>
         <nav>
             <ul class="ulnav">
                 <li><a href="#Inicio">Início</a></li>
@@ -45,7 +45,11 @@
             </section>
 
             <figure>
-                <img src="img/chocomenta.webp" alt="Imagem de sorvete de chocomenta">
+                <picture>
+                    <source srcset="img/chocomenta.webp" media="(min-width: 600px)">
+                    <source srcset="img/chocomentados.png" media="(max-width: 600px)">
+                    <img src="img/chocomenta.jpg" alt="Imagem de sorvete de chocomenta">
+                </picture>
                 <figcaption>Sorvete de chocomenta delícia</figcaption>
             </figure>
 
@@ -61,29 +65,29 @@
             </p>
             <ul>
                 <section class="sorvetes">
-                    <div>
+                    <section class="sorvetesimg">
                         <li><a href="https://www.receitasnestle.com.br/receitas/sorvete-de-doce-de-leite"
                                 class="leite">Doce de Leite</a></li>
                         <img src="img/sorvete-doce-de-leite.jpg" alt="Imagem de sorvete de doce de leite">
-                    </div>
-                    <div>
+                    </section>
+                    <section class="sorvetesimg">
                         <li><a href="https://www.tudoreceitas.com/receita-de-sorvete-de-acai-caseiro-8526.html"
                                 class="acai">Açaí</a></li>
                         <img src="img/sorvete-acai.jpg" alt="Imagem de sorvete de açaí">
-                    </div>
+                    </section>
                 </section>
 
                 <section class="sorvetes">
-                    <div>
+                    <section class="sorvetesimg">
                         <li><a href="https://tanamesa.com/escola/?url=receita-simples&post_name=sorvete-de-laranja-paula-rizkallah"
                                 class="laranja">Laranja</a></li>
                         <img src="img/sorvete-laranja.jpg" alt="Imagem de sorvete de laranja">
-                    </div>
-                    <div>
+                    </section>
+                    <section class="sorvetesimg">
                         <li><a href="https://www.tudoreceitas.com/receita-de-sorvete-de-goiaba-com-emulsificante-7952.html"
                                 class="goiaba">Goiaba</a></li>
                         <img src="img/sorvete-goiaba.jpg" alt="Imagem de sorvete de goiaba">
-                    </div>
+                    </section>
                 </section>
             </ul>
             <p class="deco">꒷꒦︶꒷꒦ ๋࣭⭑꒷꒦꒷꒦︶꒷꒦ ๋ ࣭꒷꒦꒷꒦︶꒷</p>
@@ -95,8 +99,8 @@
                 de setembro de 2026.</time></p>
         <address>
             <p>𑣲⋆ Entre em contato conosco:</p>
-            <p>Telefone: (14) 99123-4567</p>
-            <p>Email: oschocomentados@chocomentados.com</p>
+            <a href="tel:+14991234567">☏ Telefone: (14) 99123-4567</a>
+            <a href="mailto:oschocomentados@chocomentados.com">✉ Email: oschocomentados@chocomentados.com</a>
         </address>
     </footer>
 </body>
